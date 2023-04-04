@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>TODO App</title>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/2558c42d09.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  
+    <section class="main-body">
+        <main id="main">
+            <div class="content-container">
+                <div class="header d-flex aling-items-center justify-content-between">
+                    <div class="title">
+                        <h1>todo</h1> 
+                    </div>
+    
+                    <div class="theme">
+                        <img src="images/icon-moon.svg" alt="" id="icon">
+                    </div>
+                </div>
+    
+                <div class="input-container">
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="checkbox-input">
+                        <span class="checkbox">
+                          <span class="fa-solid fa-check"></span>
+                        </span>
+                    </label>
+                    <input type="text" class="input-box" placeholder="Create a new todo...">
+                </div>
+    
+    
+                <div class="todo-list-container">
+                    <div class="todolist">
+                        <ul class="task-box">
+    
+                        </ul>
+                    </div>
+                </div>
+        
+                    <div class="controls mt-3 mt-sm-0">
+                        <div class="filters d-flex aling-items-center justify-content-between">
+                            <div class="left-filter">
+                                <span id="all" class="active">All</span>
+                                <span id="active">Active</span>
+                                <span id="completed">Completed</span>
+                            </div>
+        
+                            <div class="right-filter">
+                                <span class="clearBtn">Clear All</span>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </main>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
